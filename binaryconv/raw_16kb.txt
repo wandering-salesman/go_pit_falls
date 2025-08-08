@@ -1,0 +1,36 @@
+goos: linux
+goarch: amd64
+pkg: binaryconv
+cpu: 12th Gen Intel(R) Core(TM) i5-12500H
+BenchmarkReadHolderWrapper_BinaryRead 	  772040	      1361 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  877298	      1374 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  880910	      1378 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  869672	      1385 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  855476	      1398 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  855709	      1419 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  798643	      1417 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  855526	      1386 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  868952	      1409 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_BinaryRead 	  876849	      1420 ns/op	   18432 B/op	       1 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 7013526	       171.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6554101	       175.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6621132	       176.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6960530	       173.7 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 7100137	       171.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 7094859	       170.1 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6738931	       173.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6787770	       178.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6737637	       178.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_UnsafeCast 	 6734918	       186.1 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2249966	       513.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2350396	       503.1 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2415793	       508.1 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2212653	       536.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2319765	       532.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2184872	       541.2 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2164330	       550.2 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2253124	       535.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2312052	       528.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkReadHolderWrapper_Manual     	 2292163	       520.6 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	binaryconv	35.866s
