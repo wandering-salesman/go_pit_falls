@@ -385,3 +385,10 @@ So, I wrote a generator function, that will create a function that return given 
 
 ### Invocations
 ![Return Value Count vs Invocations](images/invocations.svg)
+
+# Conclusion
+
+- Who in their right mind cares about nanoseconds in go? 50ns? maybe, but 5? nah man
+- What kinda psycho is adding more than 16 parameters to their functions?
+- On the case that it's a struct, I think you have much deeper architectureal problems than these 2ns of stack latency.
+- It's very feasible to add 64 params to a function in go, and be fast enough.
