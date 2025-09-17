@@ -2,7 +2,7 @@ package addcompare
 
 import "testing"
 
-type testType int32
+type testType byte
 
 func BenchmarkAdd1(b *testing.B) {
 	for b.Loop() {

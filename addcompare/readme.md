@@ -18,58 +18,61 @@ go test -benchmem -run=^$ -bench ^BenchmarkAdd addcompare
 ### testType: `int`
 
 ```
-      1000000000               1.000 ns/op
-      336147740                3.450 ns/op
-      329461418                3.692 ns/op
-      267846016                4.496 ns/op
-      299881916                3.953 ns/op
+BenchmarkAdd1-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd2-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd3-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd4-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd5-16        363351945                3.330 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd6-16        284908172                4.161 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd7-16        285791798                4.220 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd8-16        228743704                5.184 ns/op           0 B/op          0 allocs/op
 PASS
-ok      addcompare      5.771s          0 B/op          0 allocs/op
+ok      addcompare      8.793s
 ```
 
 ### testType: `int32`
 
 ```
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      355273795                3.287 ns/op
-      284624446                4.233 ns/op
-      273897151                4.395 ns/op
-      228251038                5.313 ns/op
+BenchmarkAdd1-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd2-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd3-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd4-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd5-16        374084659                3.203 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd6-16        287177059                4.102 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd7-16        284113792                4.187 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd8-16        227083088                5.299 ns/op           0 B/op          0 allocs/op
 PASS
-ok      addcompare      8.794s
+ok      addcompare      8.775s
 ```
 
 ### testType `float64`
 
 ```
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      381376321                3.383 ns/op
-      290679153                4.063 ns/op
-      281976038                4.198 ns/op
-      232547896                5.208 ns/op
+BenchmarkAdd1-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd2-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd3-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd4-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd5-16        366349935                3.272 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd6-16        285188324                4.150 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd7-16        282062736                4.252 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd8-16        229625409                5.207 ns/op           0 B/op          0 allocs/op
 PASS
-ok      addcompare      8.872s
+ok      addcompare      8.783s
 ```
 
 ### testType: `byte`
 
 ```
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      1000000000               1.000 ns/op
-      371481148                3.224 ns/op
-      292841566                4.121 ns/op
-      286367544                4.190 ns/op
-      227621538                5.237 ns/op
+BenchmarkAdd1-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd2-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd3-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd4-16        1000000000               1.000 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd5-16        380861066                3.192 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd6-16        284786684                4.089 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd7-16        280509824                4.212 ns/op           0 B/op          0 allocs/op
+BenchmarkAdd8-16        232922336                5.175 ns/op           0 B/op          0 allocs/op
 PASS
-ok      addcompare      8.802s
+ok      addcompare      8.773s
 ```
 
 ---
@@ -87,7 +90,7 @@ Yea, it's weird
 | 5      | 3.450         | 3.287           | 3.383             | 3.224          |
 | 6      | 3.692         | 4.233           | 4.063             | 4.121          |
 | 7      | 4.496         | 4.395           | 4.198             | 4.190          |
-| 8      | 3.953         | 5.313           | 5.208             | 5.237          |
+| 8      | 5.953         | 5.313           | 5.208             | 5.237          |
 
 ---
 
